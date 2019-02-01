@@ -238,7 +238,7 @@ member.addRole(member.guild.roles.find(`name`, ar[member.guild.id].role)).catch(
 })
 
 client.on('message', message => { 
-  var whitelisted = "اكتب ايديك هنا"// ايديك
+  var whitelisted = "اكتب ايديك هنا//"388357326614167563
   var sender = message.author
 
 if(!message.guild) return
