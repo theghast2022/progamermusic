@@ -228,9 +228,6 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 });
 
 
-
-const prefix = "";//البريفكس
-
 client.on('guildMemberAdd', member => {
   if(!ar[member.guild.id]) ar[member.guild.id] = {
   onoff: 'Off',
