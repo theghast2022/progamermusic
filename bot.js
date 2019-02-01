@@ -9,6 +9,7 @@ const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
 var prefix = "1"
+const ar = JSON.parse(fs.readFileSync(`./AutoRole.json`, `utf8`))
 
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
